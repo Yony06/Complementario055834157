@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Complementario055834157.MainPage">
+
+    <StackLayout Padding="20">
+
+        <Label Text="Ingrese la base del rectángulo:"
+               FontSize="20"
+               HorizontalOptions="Center" />
+
+        <Entry x:Name="Base"
+               Placeholder="Base"
+               Keyboard="Numeric"
+               FontSize="20" />
+
+        <Label Text="Ingrese la altura del rectángulo:"
+               FontSize="20"
+               HorizontalOptions="Center" />
+
+        <Entry x:Name="Altura"
+               Placeholder="Altura"
+               Keyboard="Numeric"
+               FontSize="20" />
+
+        <Button Text="Calcular"
+                Clicked="Button_Clicked"
+                FontSize="20"
+                HorizontalOptions="Center" />
+
+        <Label x:Name="PerimetroResultado"
+               FontSize="20"
+               HorizontalOptions="Center" />
+
+        <Label x:Name="AreaResultado"
+               FontSize="20"
+               HorizontalOptions="Center" />
+
+        <Image Source="tri.png" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               WidthRequest="400" 
+               HeightRequest="200" />
+
+    </StackLayout>
+
+</ContentPage>
